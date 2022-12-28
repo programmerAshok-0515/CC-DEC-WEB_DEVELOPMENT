@@ -1,0 +1,120 @@
+body{
+	background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+.container{
+	margin: 0 25px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+
+h1 {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 40px;
+	text-align:center;
+	color: #fff;
+}
+
+
+
+button {
+	border-radius: 9px;
+	background-color: #999;
+	margin: 10px;
+	font-family: 'Oxygen', sans-serif;
+	border: none;
+	padding: 10px 20px;
+	color: #fff;
+	text-align: center;
+	width: 130px;
+	
+}
+
+button:hover{
+	background-color: #b3b3b3;
+}
+
+.categoryButtons{
+	width: 1000px;
+	margin: auto;
+
+	
+}
+
+.content{
+	width: 1000px;
+	margin: auto;
+	
+}
+
+ .metricImperial, .temp-unit-buttons, .speed-units, .time-units{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	align-content: center;
+	
+	
+	
+}
+
+#toImperial, #toMetric, #toCelsius, #toFahrenheit, #toKelvin, #mileToKm, #kmToMile, #hours, #days {
+	background-color: 	#ff9233;
+	font-size: 20px;
+}
+
+#toImperial:hover, #toMetric:hover, #toCelsius:hover, #toFahrenheit:hover, #toKelvin:hover, #mileToKm:hover, #kmToMile:hover, #hours:hover, #days:hover{
+	background-color: #ffad66;
+}
+
+input {
+	width: 300px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 9px;
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Oxygen', sans-serif;
+	margin: auto;
+
+	
+}
+
+
+#output{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 22px;
+	text-align: left;
+	margin: auto;
+	padding: 10px;
+	width: 300px;
+	background-color: #fff;
+	border-radius: 9px;
+}
+
+
+
+#reset{
+	background-color: #999;
+	color: #fff;
+	border: none;
+	margin: 15px auto;
+}
+
+#reset:hover{
+	background-color: #b3b3b3;
+}
+
+@media only screen and (min-width: 320px) and (max-width:480px), (orientation: portrait) {
+	.content{
+		width: 50%;
+	}
+	#toImperial, #toMetric, #toCelsius, #toFahrenheit, #toKelvin, #mileToKm, #kmToMile, #hours, #days {
+		font-size: 16px;
+	}
+	
+}
+

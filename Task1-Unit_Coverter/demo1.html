@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title>Unit Converter</title>
+      <link href="stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="demo1.css">
+  </head>
+  <body>
+  <h1>Unit Converter</h1>
+    <div class="container">
+    <div class="categoryButtons">
+      <button id="length" title="Length"><i class="fas fa-ruler fa-5x"></i></button>
+      <button id="mass" title="Mass"><i class="fas fa-balance-scale fa-5x"></i></button>
+	  <button id="volume" title="Volume"><i class="fas fa-glass-whiskey fa-5x"></i></button>
+	  <button id="temperature" title="Temperature"><i class="fa fa-thermometer-2 fa-5x"></i></button>
+      <button id="speed" title="Speed"><i class="fa fa-dashboard fa-5x"></i></button>
+      <button id="time" title="Time"><i class="far fa-clock fa-5x"></i></button>
+	  
+	  </div>
+	  <div class="content">
+	<input type="number" style="display: none" placeholder="Enter a number" >
+
+	 <div class="metricImperial">
+	   <button id="toMetric" style="display:none">Imperial to metric</button>
+	   <button id="toImperial" style="display:none">Metric to imperial</button>
+	 </div>
+	 <div class="temp-unit-buttons">
+	   <button id="toCelsius" style="display:none">Celsius</button>
+	   <button id="toFahrenheit" style="display:none">Fahrenheit</button>
+	   <button id="toKelvin" style="display:none">Kelvin</button>
+	 </div>
+	 <div class="speed-units">
+	   <button id="mileToKm" style="display:none">mph</button>
+	   <button id="kmToMile" style="display:none">km/hr</button>
+	 </div>
+	 <div class="time-units">
+	   <button id="hours" style="display:none">Hours</button>
+	   <button id="days" style="display:none">Days</button>
+	 </div>
+	 </div>
+    </div>
+   
+    
+
+    <br>
+	<div id="output" style="display:none"></div>
+	
+	<div>
+	  <input type="reset" id="reset" style="display:none">
+	</div>
+
+  
+  
+   </div>
+   <script src="demo1.js"></script>
+  </body>
+</html>

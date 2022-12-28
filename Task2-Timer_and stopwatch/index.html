@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer and Stopwatch</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="background">
+        <div id="timeBtn" class="btn" onclick="showTime()"><p>Time</p></div>
+        <div id="timerBtn" class="btn" onclick="showTimer()"><p>Timer</p></div>
+        <div id="stopwatchBtn" class="btn" onclick="showStopwatch()"><p>Stopwatch</p></div>
+        <div id="stop" class="btn" onclick="stop()"><p>Stop</div>
+        <div id="reset" class="btn" onclick="reset()"><p>Reset</p></div>
+        <div id="start" class="btn" onclick="start()"><p>Start</p></div>
+        <div id="display">
+          <h1 id="timeDisplay"></h1>
+          <p id="seconds"></p>
+          <p id="timeSeconds">00</p>
+          <div id="Time" class="type">
+            <p id="timeP" class="typeShow">Time</p>
+          </div>
+          <div id="Timer" class="type">
+            <p id="timerP" class="typeShow">Timer</p>
+          </div>
+          <div id="Stopwatch" class="type">
+            <p id="stopP" class="typeShow">Stopwatch</p>
+          </div>
+          
+          <div id="timerWrap">
+            <h1 id="timerNum">00:00</h1>
+          </div>
+          <div id="stopwatchWrap">
+            <h1 id="stopNum">00:00</h1>
+          </div>
+        </div>
+      </div>
+</body>
+<script src="index.js"></script>
+</html>
